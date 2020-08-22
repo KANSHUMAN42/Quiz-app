@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BD9F0E"
+    android:layout_height="match_parent"
+    tools:context=".Scorepage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfinish"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="Finished"
+        android:textColor="#BD0E78"
+        android:textSize="34dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0EBD62"
+        android:text="Restart"
+        android:textColor="#890EBD"
+        android:layout_below="@+id/tvfinish"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
